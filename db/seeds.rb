@@ -18,7 +18,7 @@ excel_file = Creek::Book.new full_path
 sheet = excel_file.sheets[0]
 columns = { qty: 'A', description: 'B', name: 'C', unit_price: 'D', total_amount: 'E' }
 sheet.simple_rows.each do |row|
-  next if row[columns[:qty]] === 'cant' # check if is the first row to skip the header
+  next if row[columns[:qty]] == 'cant' # check if is the first row to skip the header
   next if !row.present?
   new_item = {
       name: row[columns[:name]],
