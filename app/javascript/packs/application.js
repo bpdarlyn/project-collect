@@ -3,7 +3,7 @@
 // a relevant structure within app/javascript and only use these pack files to reference
 // that code so it'll be compiled.
 // styles
-import './../main-app/application.scss'; // import styles
+import './../main-app/styles/application.scss'; // import styles
 
 require('./../main-app/js/application'); // import javascripts
 
