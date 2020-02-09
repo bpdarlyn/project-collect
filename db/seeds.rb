@@ -43,22 +43,24 @@ sheet_promises.simple_rows.each do |row|
     person = Person.create(name: row[column_promise[:person]])
   end
   item = ItemCollect.find_by_name row[column_promise[:item]]
-  new_promise = {
-      id: person.id,
-      name: person.name,
-      last_name: person.last_name,
-      ci: person.ci,
-      phone: row[column_promise[:phone]],
-      amount: row[column_promise[:amount]].to_f,
-      item_collect_id: item.id
-  }
-  p new_promise
-  pf = Builder::PromiseForm.new(new_promise)
-  pf.save
+  if item.present?
+    new_promise = {
+        id: person.id,
+        name: person.name,
+        last_name: person.last_name,
+        ci: person.ci,
+        phone: row[column_promise[:phone]],
+        amount: row[column_promise[:amount]].to_f,
+        item_collect_id: item.id
+    }
+    pf = Builder::PromiseForm.new(new_promise)
+    pf.save
 
-  promise = Promise.where(person: person, item_collect: item).first
-  promise.current_state = row[column_promise[:paid]] == 'SI' ? 'paid' : 'pending';
-  promise.paid = row[column_promise[:paid]] == 'SI' ? row[column_promise[:amount]].to_f : 0;
-  promise.save
+    promise = Promise.where(person: person, item_collect: item).first
+    promise.current_state = row[column_promise[:paid]] == 'SI' ? 'paid' : 'pending';
+    promise.paid = row[column_promise[:paid]] == 'SI' ? row[column_promise[:amount]].to_f : 0;
+    promise.save
+    p new_promise
+  end
 end
 

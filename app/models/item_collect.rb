@@ -1,6 +1,10 @@
 class ItemCollect < ApplicationRecord
   belongs_to :project
 
+  has_many :promises, dependent: :destroy
+
+  scope :pending, -> { where(current_state: 'pending') }
+
   before_save do
     if total_collect >= total_amount
       self.current_state = 'collected'

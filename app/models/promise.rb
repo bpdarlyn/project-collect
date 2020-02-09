@@ -2,6 +2,8 @@ class Promise < ApplicationRecord
   belongs_to :person
   belongs_to :item_collect
 
+  scope :receivables, -> { where(current_state: 'pending') }
+
   before_save do
     if self.amount <= self.paid
       self.current_state = 'paid'
