@@ -1,0 +1,54 @@
+---
+en:
+  history:
+    history:
+      my_history: History
+      card_title: Car rentals
+      time_use: Use time
+      username: Username
+      place_departure: Place of departure
+      hist_more1: View more
+      hist_more2: View more
+      trips_dud: Trips Dud
+      place_departure2: Place Departure
+      brand: Brand
+      model: Model
+      owner: Owner
+      hist_more3: View more
+      hist_more4: View more
+    history_rent:
+      my_history: History
+      card_title: Car rentals
+      time_use: Use time
+      day: day
+      username: User name 
+      description: Description
+      brand: Brand
+      model: Model
+      license_plate: License plate
+      date: Date
+      rental_des: Description
+      code: Code
+      amount: Amount
+      status: Status
+      report: Report
+      desc_report: Review the report made on the rental of your vehicle.
+      print: Print
+    history_trips:
+      my_history: History
+      trips_dud: Trips Dud
+      time_use: Use time
+      day: day
+      place_departure: Place Departure
+      brand: Brand
+      model: Model
+      owner: Owner
+      commentary: Commentary
+      date: Date
+      rental_des: Description
+      code: Code
+      amount: Amount
+      status: Status
+      report: Report
+      desc_report: Review the report made on the rental of your vehicle.
+      print: Print

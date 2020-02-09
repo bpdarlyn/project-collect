@@ -1,0 +1,54 @@
+---
+es:
+  history:
+    history:
+      my_history: Historial
+      card_title: Alquileres de tu auto
+      time_use: Tiempo de uso
+      username: Nombre de usuario
+      place_departure: Lugar de partida
+      hist_more1: Ver más
+      hist_more2: Ver más
+      trips_dud: Viajes realizados en Dud
+      place_departure2: Lugar de Partida
+      brand: Marca
+      model: Modelo
+      owner: Propietario
+      hist_more3: Ver más
+      hist_more4: Ver más
+    history_rent:
+      my_history: Historial
+      card_title: Alquileres de tu auto
+      time_use: Tiempo de uso
+      day: día
+      username: Nombre de usuario
+      description: Descripción
+      brand: Marca
+      model: Modelo
+      license_plate: Placa
+      date: Fecha
+      rental_des: Descripción
+      code: Código
+      amount: Monto
+      status: Estado
+      report: Reporte
+      desc_report: Revisa el reporte realizado sobre el alquiler de tu vehículo.
+      print: Imprimir
+    history_trips:
+      my_history: Historial
+      trips_dud: Viajes realizados en Dud
+      time_use: Tiempo de uso
+      day: día
+      place_departure: Lugar de Partida
+      brand: Marca
+      model: Modelo
+      owner: Propietario
+      commentary: Comentario
+      date: Fecha
+      rental_des: Descripción
+      code: Código
+      amount: Monto
+      status: Estado
+      report: Reporte
+      desc_report: Revisa el reporte realizado sobre el alquiler de tu vehículo.
+      print: Imprimir

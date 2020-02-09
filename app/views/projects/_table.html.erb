@@ -1,0 +1,20 @@
+<table
+  class="table table-bordered"
+>
+  <thead class="thead-light">
+  <tr>
+    <th>Nombre</th>
+    <th>Descripción</th>
+    <th>Total Recaudado</th>
+    <th>Monto a Recaudar</th>
+    <th>Estado</th>
+    <th>Acciones</th>
+  </tr>
+  </thead>
+  <tbody>
+  <% projects.each do |project| %>
+    <%= render partial: 'row', locals: {project: project} %>
+  <% end %>
+  </tbody>
+</table>
+

@@ -1,0 +1,25 @@
+es:
+  requests:
+    index:
+      request_title: Solicitudes
+      message: Mensajes
+    client_profile:
+      main_title_text: Solicitudes
+      rent_card_main_title_text: Duración
+      rent_card_from_text: Desde
+      rent_card_to_text: Hasta
+      rent_card_rental_time_text: Tiempo de alquiler
+      rent_card_period_text: días
+      accept_reservation: Aceptar Reserva
+      refuse_reservation: Rechazar Reserva
+      rent_start_rent_button_text: Iniciar Alquiler
+      rent_finalize_button_text: Finalizar
+      rent_report_button_text: Reportar
+    crofter_profile:
+      main_title_text: Solicitudes
+      rent_card_main_title_text: Duración
+      rent_card_from_text: Desde
+      rent_card_to_text: Hasta
+      rent_card_rental_time_text: Tiempo de alquiler
+      rent_card_period_text: días
+      rent_card_pay_button_text: Pagar

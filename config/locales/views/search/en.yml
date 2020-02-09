@@ -1,0 +1,20 @@
+en:
+  search:
+    detail_search:
+      duration_card_title: Duration
+      from_text: From
+      to_text: To
+      modify_text: Modify
+      rental_time_text: Rental time
+      rent_button_text: Rent
+      user_registered_in: Registered in
+      features_section_title: Features
+      host_rules_section_title: Host rules
+      location_section_title: Location
+      insurance_section_title: Insurance
+      requirements_to_rent: 'Requirements: Be over 18 years old, Stay in the country of Bolivia.'
+      send_message_place_holder_logged: Send a message...
+      send_message_place_holder_not_logged: Sign in to send a message
+      default_message: "How it's going! I am interested in you: %{car_full_name}.\nCould you give me more information about it please?\n"
+      button_send_message_text: Send
+      button_send_login_text: Log in

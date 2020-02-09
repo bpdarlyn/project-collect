@@ -1,0 +1,27 @@
+---
+es:
+  navigation:
+    available_locales:
+      en: Inglés
+      es: Español
+    menu:
+      profile:
+        options:
+          profile: Perfil
+          my_dud: Mi Dud
+          request: Solicitudes
+          history: Historial
+          logout: Cerrar Sesión
+          login: Iniciar Sesión
+          messages: Mensajes
+      know_more:
+        options:
+          how_it_work: ¿Cómo funciona?
+          insurance: Seguro
+          review: Evaluaciones
+          support_and_contact: Soporte y Contacto
+        title: Conoce más
+      rent_your_car:
+        options:
+        title: Alquila tu auto
+

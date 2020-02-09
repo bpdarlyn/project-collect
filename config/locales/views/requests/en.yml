@@ -1,0 +1,25 @@
+en:
+  requests:
+    index:
+      request_title: Requests
+      message: Messages
+    client_profile:
+      main_title_text: Requests
+      rent_card_main_title_text: Duration
+      rent_card_from_text: From
+      rent_card_to_text: To
+      rent_card_rental_time_text: Rental time
+      rent_card_period_text: days
+      accept_reservation: Accept Reservation
+      refuse_reservation: Refuse Reservation
+      rent_start_rent_button_text: Start rent
+      rent_finalize_button_text: Finalize
+      rent_report_button_text: Report
+    crofter_profile:
+      main_title_text: Requests
+      rent_card_main_title_text: Duration
+      rent_card_from_text: From
+      rent_card_to_text: To
+      rent_card_rental_time_text: Rental time
+      rent_card_period_text: days
+      rent_card_pay_button_text: Pay

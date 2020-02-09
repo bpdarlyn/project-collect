@@ -1,0 +1,6 @@
+---
+es:
+  model:
+    project:
+      true: Habilitado
+      false: Inhabilitado

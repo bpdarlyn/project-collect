@@ -1,0 +1,149 @@
+en:
+  partials:
+    insurance:
+      text_title: Comprehensive insurance for all trips.
+      text_body: Automatic coverage as soon as the trip begins with Dud.
+      subtitle: Assistance in case of damages or accidents.
+      subtitle_body: 24/7 roadside assistance in case your vehicle breaks down and needs to be towed.
+      support: Customer Support.
+      support_body: Helpline 800109911
+      read_more: Read more
+    share_your_car_and_earn:
+      main_title: Share your car and Win!
+      announce_your_car_title: 1. Advertise your car
+      announce_your_car_body: Register in Dud with Facebook, Google or your email and be ready to advertise your vehicle for free, at the same time, contributing to your community and generating additional income. Make a specific description of your vehicle, take the best photographs, upload your certificate of ownership and voila.
+      response_the_requests_title: 2. Respond to requests
+      response_the_requests_body: Choose in your availability calendar the days you want to generate income and respond to the reservation requests of other users. Remember that if you have the option of "immediate booking" and "always available" you can increase your requests.
+      find_the_driver_title: 3. Find the driver
+      find_the_driver_body: Coordinate with the driver of your vehicle the starting point, verify your driving license, take the required photographs (to establish the state of the vehicle before the start of the rental) and deliver the keys.
+      take_easy_and_earn_title: 4. Relax and win
+      take_easy_and_earn_body: In the community of Dud we take care of others as our own, so stay calm, relax and start counting your money. Remember to be attentive to any requirement or question of the driver, do not forget that each rental has a car insurance specifically designed for Dud.
+      get_back_your_car_title: 5. Receive your car
+      get_back_your_car_body: Find the driver on the day and time of completion of the reservation or extension and at the agreed place. Check the vehicle, set the fuel and completion mileage and terminate the rental. Evaluate your experience to continue building Dud Community, your qualification is very important for us.
+    app_download:
+      main_title: Download the App
+      app_resume: Search quickly and easily, find all the options available near your area and share your opinion with the community.
+      app_promotion: Earn credit for your next trip!
+      available: 'Available in: '
+    how_it_works:
+      main_title: How does it work?
+      sign_up_title: 1. Register
+      sign_up_body: Register in Dud with Facebook, Google or your email and you are ready to find the vehicle of your choice. Complete the data in your profile and upload the necessary documents when we ask, we will validate your identity and / or driving license so you can become a Driver.
+      search_and_booking_title: 2. Choose and reserve
+      search_and_booking_body: Enter the date and location in which you request to rent and choose the best vehicle that suits your need, make the reservation and wait for the confirmation of the owner, in case the option "immediate reservation" is enabled the owner approval.
+      take_it_title: 3. Recover
+      take_it_body: Make the payment (your driving license must be verified) and know the owner to pick up the vehicle at the agreed place. Check the condition of the vehicle, show your identity and driving license, take the keys and start your trip; Do not forget to drive with the greatest safety, all trips are covered by insurance tailored to your needs.
+      give_back_title: 4. Return
+      give_back_body: Return the vehicle on the day and at the agreed time, meet with the owner, check the condition of the vehicle, mileage and fuel level (must be the same as at the beginning), hand over the keys and evaluate your experience to continue building Dud Community.
+    rent_your_car:
+      main_title: Rent your car
+    rent_wizard_header:
+      general: General
+      address: Address
+      my_car: My Car
+      availability: Availability
+    profile_main_tabs:
+      profile_main_tab: Profile
+      settings_main_tab: Settings
+    show_public_profile:
+      work_in: 'Work in:'
+      about_me: 'About me:'
+      language: 'Language:'
+      edit_profile_discard_button_text: Discard
+    nav_bar_profile_settings:
+      general: General
+      approval_status: Approval Status
+      payment: Payment
+      notifications: Notifications
+      security_and_login: Security and Sign in
+    success_sent_message:
+      message_sent_successfully_title: 'Message sent successfully '
+      message_sent_successfully_first_text: You can check the message
+      message_sent_successfully_second_text: go to chat
+    booking_resume:
+      track: 'Track: '
+      plate_number: 'Plate number: '
+      fuel_type: 'Fuel type: '
+      place_departure: 'Place of departure: '
+      additional_features: Additionals
+      insurance_include: Insurance include
+      from: From
+      to: To
+      rental_time: Rental time
+      rent_button_text: Rent
+    success_booking:
+      main_title_text: Vehicle added
+      main_body_first_text: Your rental will start soon. Increase your chances of getting a car, we recommend that
+      main_body_second_text: you select at least 3 vehicles.
+      why_text: Why?
+      select_text: Select
+      search_more_vehicles: Search for more vehicles
+    inactive_account:
+      verify_account: 'Verify account '
+      verify_account_suggestion_first_text: 'Check the status of your account to rent a car '
+      verify_account_suggestion_second_text: go to account statement.
+      verify_account_button_text: Verify my account
+    generic_profile:
+      user_registered_in: 'Registered in '
+      works_in: 'Works in:'
+      about_me: 'About me:'
+      language: 'Language:'
+      account_verified: Account verified
+      see_more: See more
+      documents_provided_section_title: Documents provided
+      identity_document: Identity document
+      email: Email
+      licence_driver: Licence driver
+      phone: Phone
+      reservation_payment_detail_section_title: Reservation payment detail
+      service_charge: 'Service charge:'
+      charge_use_platform: 'Charge for use of platform:'
+      warranty: 'Warranty (*):'
+      total: 'Total:'
+      warranty_notice_text: '* The amount of the guarantee will be returned once it is finished.'
+      address: 'Address:'
+      custom_address: 'Address detail:'
+      map: Map
+      evaluations_section_title: Evaluations
+    show_cards:
+      main_title: Reservation Payment Detail
+      detail_service_payment: 'Service charge: '
+      detail_charge_use_platform: 'Charge for use of platform: '
+      detail_warranty: 'Warranty (*): '
+      total: 'Total: '
+      notice_about_warranty: '* The amount of the guarantee will be returned once it is finished.'
+      select_payment_method: Select payment method
+      button_add_payment_method: Add payment method
+      button_rent: Rent
+    booking_report_documents:
+      reservation_report: Reservation Report
+      track: Track
+      distance_value: 'Value: '
+      distance_measure_type: 'Type: '
+      kilometres: Kilometres
+      miles: Miles
+      add_photo: Add photo
+      fuel: Fuel
+      fuel_full: 'Value: 8/8'
+      upload_report_button: Upload report
+    no_request:
+      no_req: You have no request
+      increase: ¡Increase your odds!
+      edit_ads: Edit your ads with these tips and get a better answer.
+      tips: Tips
+    request:
+      my_request: My requests
+      status: Status
+      description: Description
+      day: days
+      lives_in: Lives in
+      about_me: About me
+      request_vehicles: Requests for my vehicles
+      status_vehi: Status
+      description_vehi: Description
+      day_vehi: days
+      lives_in_vehi: Lives in
+      about_me_vehi: About me
+      increase: ¡Increase your odds!
+      edit_ads: Edit your ads with these tips and get a better answer.
+      tips: Tips

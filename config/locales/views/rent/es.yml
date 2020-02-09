@@ -1,0 +1,79 @@
+es:
+  rent:
+    rent_car:
+      main_title: Alquila tu auto y ¡Gana!
+      dinamic_text_1: La cultura esta cambiando
+      dinamic_text_2: Compartiendo todos ganan
+      dinamic_text_3: Un nuevo camino por recorrer
+      start: Empezar
+      check_advantages: ¡Mira los gastos que puedes cubrir alquilando tu auto!
+      first_rent_frequency: Alquilando 2-3 días al mes
+      first_benefit: Pagas todos tus gastos de mantenimiento del vehículo.
+      second_rent_frequency: Alquilando 8-9 días al mes
+      second_benefit: Cubres las cuotas del financiamiento, quédate tranquilo.
+      third_rent_frequency: Alquilando 15 días al mes
+      third_benefit: Aceleras el pago de tu crédito hasta un 30%, fácil ¿verdad?.
+      see_more: Ver más
+      review_who_shares_their_cars: Opiniones de personas que comparten su auto.
+      first_review_date_registered: Se registró en 2019.
+      first_review: Nunca he tenido ningún problema con la plataforma, es muy sencillo y me siento tranquila con el seguro.
+      second_review_date_registered: Se registró en 2019.
+      second_review: Cubro todos los gastos del auto, me siento tranquilo, la cantidad de usuarios es cada vez más grande.
+    rent_your_car:
+      car_section_title: Movilidad
+      notice_car_year_body: Solo serán aceptados vehículos con una aniguedad máxima de 9 años a momento del registro y alta del anuncio.
+      notice_car_year_title: Aviso
+      register_section_title: Registro
+      vehicle_ownership_document: Documento de propiedad del vehículo
+      image_document: Fotografía del Ruat
+      features_section_title: Características
+      distance_measure: Recorrido
+      miles: Millas
+      kilometres: Kilómetros
+      additional_features_section_title: Extras
+      host_rules_section_title: Normas del Anfitrión
+      statement_section_title: Certificación
+      statement_body_text: Por la presente certifico que ofrezco un vehículo bien mantenido, actualizado y que soy su titular registrado.
+      reservation_section_title: Reserva
+      reservation_body_text: Reserva inmediata
+      notice_reservation_body: La reserva inmediata permite al propietario, aceptar de forma automática las reservas (día y hora) hechas a un vehículo ofertado por parte del Conductor.
+      notice_reservation_title: Aviso
+    rent_your_car_2:
+      parking_place_section_title: Lugar de parqueo
+      address_clarification: Aclaración de dirección
+      example_address_clarification: Esq. Radial 26, verja negra
+      notice_address_clarification_body: La dirección proporcionada, no será compartida con otros Usuarios de Dud y es utilizada para referenciar la ubicación del vehículo conforme los Términos y Condiciones de uso y la política de Privacidad de Dud, es decir sólo será proporcionada cuando se pague una reserva.
+      notice_address_clarification_title: Aviso
+      map: Mapa
+    rent_your_car_3:
+      car_description: Descripción del auto
+      car_value: Valor del vehículo
+      daily_price: Precio diario
+      first_piece_advice_rent_car: A este precio, es
+      second_piece_advice_likely: muy probable
+      second_piece_advice_unlikely: poco probable
+      third_piece_advice_rent_car: que alquile su
+      add_photos_car_main_title: Añade Fotografias de tu Auto
+      add_button_text: Añadir
+      3/4_front_photo_title: Foto 3/4
+      3/4_front_photo_body: Una foto frontal 3/4 que se destaca es la primera que ven los conductores.
+      side_photo_title: Foto lateral
+      side_photo_body: La foto lateral es para dar una idea del tamaño de su auto.
+      3/4_rear_photo_title: Foto 3/4 trasera
+      3/4_rear_photo_body: Una foto trasera 3/4 para completar el panorama exterior.
+      inside_photo_title: Foto interior
+      inside_photo_body: Una interior para ayudar a los conductores o imaginarse detrás del volante.
+      additional_photo_title: Foto extra
+      additional_photo_body: Muestra el potencial de tu vehículo, puedes añadir fotos de tus accesorios extra, aumentar fotos del interior, ¡sácale provecho!.
+      tips_main_title: ¡Tips para tus fotos!
+      first_tip: Usa el formato de paisaje, encuadra tu vehículo al medio.
+      second_tip: Sigue nuestras pautas de ángulo, las fotos principales son muy importantes, son las primeras que ven los usuarios.
+      third_tip: Mantiene un fondo claro y neutral, el punto de atención tiene que ser de tu auto no lo olvides.
+      fourth_tip: Usa solo luz natural, ¡aprovecha el día para sacar fotos!
+      fifth_tip: Verifica la limpieza de tu auto, no te olvides que todo entra por los ojos.
+    rent_your_car_4:
+      main_title: Calendario
+      notice_about: Marca los días Disponibles y No Disponibles de tu vehículo.
+      always_available: Siempre disponible
+      available: Disponible
+      no_available: No disponible

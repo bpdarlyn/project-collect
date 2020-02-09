@@ -23,6 +23,14 @@ module CollectProject
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 6.0
+    config.i18n.available_locales = %w(es)
+    I18n.config.enforce_available_locales = true
+    config.i18n.default_locale = :es
+    config.i18n.load_path += Dir[Rails.root.join('config', 'locales', '**', '*.{rb,yml}')]
+    config.time_zone = 'America/La_Paz'
+    config.active_record.default_timezone = :utc
+    config.autoload_paths += Dir["#{config.root}/modules/**/"]
+
 
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration can go into files in config/initializers

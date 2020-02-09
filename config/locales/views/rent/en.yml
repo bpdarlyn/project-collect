@@ -1,0 +1,79 @@
+en:
+  rent:
+    rent_car:
+      main_title: Rent your car and Earn!
+      dinamic_text_1: The culture is changing
+      dinamic_text_2: Sharing all win
+      dinamic_text_3: A new way to go
+      start: Start
+      check_advantages: Look at the expenses you can cover by renting your car!
+      first_rent_frequency: Renting 2-3 days a month
+      first_benefit: You pay all your vehicle maintenance costs.
+      second_rent_frequency: Renting 8-9 days a month
+      second_benefit: Cover the financing fees, stay calm.
+      third_rent_frequency: Renting 15 days a month
+      third_benefit: Accelerate the payment of your credit up to 30%, easy right ?.
+      see_more: see more
+      review_who_shares_their_cars: Opinions of people who share their car.
+      first_review_date_registered: It was registered in 2019.
+      first_review: I have never had any problem with the platform, it is very simple and I feel calm with the insurance.
+      second_review_date_registered: It was registered in 2019.
+      second_review: I cover all the expenses of the car, I feel calm, the number of users is getting bigger.
+    rent_your_car:
+      car_section_title: Car
+      notice_car_year_body: Only vehicles with a maximum length of 9 years will be accepted at the time of registration and registration of the ad.
+      notice_car_year_title: Notice
+      register_section_title: Register
+      vehicle_ownership_document: Vehicle ownership document
+      image_document: Document image.
+      features_section_title: Features
+      distance_measure: Distance measure
+      miles: Miles
+      kilometres: Kilometres
+      additional_features_section_title: Additional Features
+      host_rules_section_title: Host rules
+      statement_section_title: Statement
+      statement_body_text: I hereby certify that I offer a well-maintained, updated vehicle and that I am its registered owner.
+      reservation_section_title: Reservation
+      reservation_body_text: Immediate Reservation
+      notice_reservation_body: The immediate reservation allows the owner to automatically accept the reservations (day and time) made to a vehicle offered by the Driver.
+      notice_reservation_title: Notice
+    rent_your_car_2:
+      parking_place_section_title: Parking place
+      address_clarification: Address clarification
+      example_address_clarification: '#54 St. Ballivian'
+      notice_address_clarification_body: The established address will not be shared with other Dud Users and is used to reference the location of the vehicle in accordance with the Terms and Conditions of use and Dud's Privacy policy.
+      notice_address_clarification_title: Notice
+      map: Map
+    rent_your_car_3:
+      car_description: Car description
+      car_value: Car value
+      daily_price: Daily price
+      first_piece_advice_rent_car: At this price, you are
+      second_piece_advice_likely: very likely
+      second_piece_advice_unlikely: unlikely
+      third_piece_advice_rent_car: to rent your
+      add_photos_car_main_title: Add photos of your car
+      add_button_text: Add
+      3/4_front_photo_title: 3/4 photo
+      3/4_front_photo_body: A 3/4 front photo that stands out is the first that drivers see.
+      side_photo_title: Lateral photo
+      side_photo_body: The side photo is to give an idea of the size of your car.
+      3/4_rear_photo_title: 3/4 rear photo
+      3/4_rear_photo_body: A 3/4 rear photo to complete the exterior panorama.
+      inside_photo_title: Inside photo
+      inside_photo_body: An inside to help drivers or imagine behind the wheel.
+      additional_photo_title: Extra photo
+      additional_photo_body: Show the potential of your vehicle, you can add photos of your extra accessories, increase photos of the interior, take advantage!
+      tips_main_title: Tips for your photos!
+      first_tip: Use the landscape format, frame your vehicle in the middle.
+      second_tip: Follow our angle guidelines, the main photos are very important, they are the first users see.
+      third_tip: Maintains a clear and neutral background, the point of attention has to be from your car do not forget.
+      fourth_tip: Use only natural light, take advantage of the day to take pictures!
+      fifth_tip: Check the cleanliness of your car, do not forget that everything enters through the eyes.
+    rent_your_car_4:
+      main_title: Calendar
+      notice_about: Mark the Available and Unavailable days of your vehicle.
+      always_available: Always available
+      available: Available
+      no_available: Unavailable

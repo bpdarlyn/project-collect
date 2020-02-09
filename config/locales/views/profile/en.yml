@@ -1,0 +1,139 @@
+en:
+  profile:
+    public_profile:
+      user_registered_in: Registered in
+      edit_profile: Edit profile
+      verified_account: Verified account
+      see_more: See more
+      identity_document: Identity document
+      email: Email
+      driver_license: Driver's license
+      phone: Phone
+      evaluations: Evaluations
+      evaluations_made_by_you: Evaluations made by you
+    profile:
+      user_registered_in: Registered in
+      personal_information_section_title: Personal information
+      picture_document: Picture document
+      front_side_photo: Front side photo
+      reverse_side_photo: Reverse side photo
+      driver_licence_section_title: Driver licence
+      expedition_date_limit_text: The minimum date can be 5 years ago
+      expiration_date_limit_text: The minimum date must be today
+      contact_section_title: Contact
+      email: Email
+      verified_email: Verified email
+      verify_email: Verify email
+      phone: Phone
+      verified_phone: Verified phone
+      verify_phone: Verify phone
+      button_verify_phone_text: Send code
+      legend_about_verify_phone: Once the phone is entered, you can send the verification code.
+      address_section_title: Address
+      send_expected_service_invoices: Send Expected or Service Invoices
+      emergency_contact: Emergency contact
+      emergency_number: Emergency number
+      account_connection: Account Connection
+      add: Add
+      linked: Linked
+      button_discard_text: Discard
+    profile_approval:
+      alert_message: The activation process will take approximately 24hrs.
+      main_title: General
+      identity_document: 'Identity document:'
+      driver_licence: 'Driver licence:'
+      phone: 'Phone:'
+      email: 'Email:'
+      verify: Verify
+    profile_payment:
+      main_title: Payment methods
+      card_number: Card number
+      expiration_date: Expiration date
+      month: Month
+      year: Year
+      add_credit_debit_card: Add credit or debit card
+      payment_history_section_title: Payment history
+      date: Date
+      name: Name
+      state: State
+      received: Received
+      paid: Paid
+      without_paids: You have no activities related to payments.
+    profile_notifications:
+      sms_notifications_text: Receive operations by SMS.
+      receive_offers: Receive offers.
+      receive_suggestions: Receive suggestions in your city.
+      recieve_news_about_politics: Receive new usage policies.
+    profile_security:
+      publications_section_title: Publications
+      share_on_facebook_text: Share activity on Facebook.
+      share_my_profile_text: Include my profile and ads in search engines.
+      login_section_title: Login
+      edit_button_text: Edit
+      change_password_text: Change password
+      note_about_current_password: (we need your current password)
+      note_about_password_sent: Your password has been sent to your email, otherwise verify your email on the platform.
+      note_about_dont_change_password: (leave blank if you do not want to change)
+      delete_account_section_title: Delete my account
+      delete_account_text: The account registered in Dud will be temporarily deleted for three months and later if no activity is registered the deletion will be final.
+      button_delete_text: Yes I agree
+    my_dud:
+      profile_title: My Dud
+      register_date: Registered
+      profile_label_dark: Vehicles
+      car_text_description: Description
+      car_text_place: Place of departure
+      car_text_brand: Brand
+      car_text_model: Model
+      bottom_right_container: View More
+      button_center_container: View More
+    my_dud_2:
+      profile_title: My Dud
+      my_cars: My cars
+      car_text_description: Description
+      car_text_place: Place of departure
+      car_text_brand: Brand
+      car_text_model: Model
+      table_date: Date
+      table_description: Description
+      table_code: Code
+      table_amount: Amount
+      table_status: Status
+      report_text1: Report
+      report_text2: Review the report made on the rental of your vehicle.
+      report_button: Print
+      label_Ad: Advertising
+      more_info: View more
+      more_description: Description
+      description_date: Registered in
+      edit_button: Edit
+      label_car: Car
+      descrip_brand: Brand
+      descrip_model: Model
+      descrip_year: Year
+      daily_price: Daily Price
+      recommended_price: Recommended Price
+      descrip_price: At this price, it is %{probability} that your %{car_full_name}
+      photos: Photos
+      features: Features
+      seating_numbers: Seating numbers
+      door_numbers: Door numbers
+      fuel_type: Fuel type
+      mileage: Mileage
+      feature_brand: Brand
+      additional_features: Additional features
+      host_rules: Host Rules
+      parking_place: Parking Place
+      address: Address
+      map: Map
+      discard: Discard
+      save_changes: Save changes
+      distance_measure: Distance measure
+      miles: Miles
+      kilometres: Kilometres
+      schedules: Schedules
+      frontal_picture: Frontal
+      side_picture: Side
+      inside_picture: Inside
+      rear_picture: Rear
+      extra_picture: Extra

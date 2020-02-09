@@ -1,0 +1,20 @@
+es:
+  search:
+    detail_search:
+      duration_card_title: Duración
+      from_text: Desde
+      to_text: Hasta
+      modify_text: Modificar
+      rental_time_text: Tiempo de alquiler
+      rent_button_text: Alquilar
+      user_registered_in: Se registró en
+      features_section_title: Características
+      host_rules_section_title: Normas del Anfitrión
+      location_section_title: Ubicación
+      insurance_section_title: Seguro
+      requirements_to_rent: 'Requirements: Requisitos: Ser mayor a 18 años, Quedarte en el país de Bolivia.'
+      send_message_place_holder_logged: Enviar un mensaje...
+      send_message_place_holder_not_logged: Inicia sesión para poder enviar un mensaje
+      default_message: "¡Buenas! estoy interesado en tu: %{car_full_name}.\n¿Me podes facilitar más información acerca de él porfavor?\n"
+      button_send_message_text: Enviar
+      button_send_login_text: Iniciar sesión

@@ -1,0 +1,149 @@
+es:
+  partials:
+    insurance:
+      text_title: Seguro integral para todos los viajes.
+      text_body: Cobertura automática tan pronto como comience el viaje con Dud.
+      subtitle: Asistencia en caso de daños o accidentes.
+      subtitle_body: Asistencia en carretera 24/7 en caso de que su vehículo se averíe y necesite ser remolcado.
+      support: Atención al cliente.
+      support_body: Línea de asistencia 800109911
+      read_more: Leer mas
+    share_your_car_and_earn:
+      main_title: Comparte tu auto y ¡Gana!
+      announce_your_car_title: 1. Anuncia tu auto
+      announce_your_car_body: Regístrate en Dud con Facebook, Google o tu correo electrónico y estás listo para anunciar tu vehículo de forma gratuita, al mismo tiempo, aportas a tu comunidad y generas ingresos extras. Realiza una descripción detallada de tu vehículo, sácale las mejores fotografías, carga tu certificado de propiedad y listo.
+      response_the_requests_title: 2. Responde las solicitudes
+      response_the_requests_body: Elige en tu calendario de disponibilidad los días que quieres generar ingresos y responde las solicitudes de reserva de otros usuarios. Recuerda que si tienes habilitada la opción de “reserva inmediata” y “siempre disponible” puedes incrementar tus solicitudes (se aceptaran de forma automática).
+      find_the_driver_title: 3. Encuentra al conductor
+      find_the_driver_body: Coordina con el conductor de tu vehículo el punto de partida, verifica su permiso de conducir, saca las fotografías requeridas (para establecer el estado del vehículo antes del inicio del alquiler) y  entrega las llaves.
+      take_easy_and_earn_title: 4. Relájate y gana
+      take_easy_and_earn_body: En la comunidad de Dud cuidamos lo ajeno como propio, así que quédate tranquilo, relájate y empieza a contar tu dinero. Recuerda estar atento a cualquier requerimiento o pregunta del Conductor, no olvides que cada alquiler cuenta con un seguro automotor específicamente diseñado para Dud.
+      get_back_your_car_title: 5. Recibe tu auto
+      get_back_your_car_body: Encuentra al conductor el día y a la hora de finalización de la reserva o ampliación y en el lugar acordado. Revisa el vehículo, establece el combustible y el kilometraje de finalización y da por terminado el alquiler. Evalúa tu experiencia para seguir construyendo Dud Community, tu calificación es muy importante para nosotros.
+    app_download:
+      main_title: Descarga la App.
+      app_resume: Realiza tu búsqueda de forma sencilla y rápida, encuentra todas las opciones disponibles cerca de tu zona y comparte tu opinión con la comunidad.
+      app_promotion: ¡Gana credito para tu siguiente viaje!
+      available: 'Disponible en:'
+    how_it_works:
+      main_title: ¿Cómo funciona?
+      sign_up_title: 1. Regístrate
+      sign_up_body: Regístrate en Dud con Facebook, Google o tu correo electrónico y estás listo para buscar el vehículo de tu preferencia. Completa los datos en tu perfil y sube los documentos necesarios cuando te lo pidamos, validaremos tu identidad y/o permiso de conducir para que puedas convertirte en Conductor.
+      search_and_booking_title: 2. Elije y reserva
+      search_and_booking_body: Ingresa la fecha y la ubicación en la que deseas alquilar y elige el mejor vehículo que se adapte a tu necesidad, realiza la reserva y espera la confirmación del propietario, en caso de que esté habilitada la opción “reserva inmediata” no se requiere la aprobación del propietario.
+      take_it_title: 3. Recoger
+      take_it_body: Realiza el pago (tu permiso de conducir debe estar verificado) y conoce al propietario para recoger el vehículo en el lugar acordado. Verifica el estado del vehículo, enséñale tu identidad y permiso de conducir, toma las llaves y comienza tu viaje; no olvides conducir con la mayor seguridad, todos los viajes están cubiertos por un seguro hecho a tu medida.
+      give_back_title: 4. Regreso
+      give_back_body: Devuelve el vehículo el día y a la hora acordada, reúnete con el propietario, verifiquen el estado del vehículo, kilometraje y el nivel de combustible (debe ser el mismo que al inicio), entrega las llaves y evalúa tu experiencia para seguir construyendo Dud Community.
+    rent_your_car:
+      main_title: Alquila tu auto
+    rent_wizard_header:
+      general: General
+      address: Dirección
+      my_car: Mi auto
+      availability: Disponibilidad
+    profile_main_tabs:
+      profile_main_tab: Perfil
+      settings_main_tab: Configuración
+    show_public_profile:
+      work_in: 'Trabaja en:'
+      about_me: 'Acerca de mi:'
+      language: 'Idioma:'
+      edit_profile_discard_button_text: Descartar
+    nav_bar_profile_settings:
+      general: General
+      approval_status: Estado de Aprobación
+      payment: Pago
+      notifications: Notificaciones
+      security_and_login: Seguridad e Inicio de Sesión
+    success_sent_message:
+      message_sent_successfully_title: '¡Mensaje enviado con exito! '
+      message_sent_successfully_first_text: El mensaje lo puede revisar
+      message_sent_successfully_second_text: ir al chat
+    booking_resume:
+      track: 'Recorrido: '
+      plate_number: 'Número de placa: '
+      fuel_type: 'Tipo de combustible: '
+      place_departure: 'Lugar de partida: '
+      additional_features: Extras
+      insurance_include: Seguro incluido
+      from: Desde
+      to: Hasta
+      rental_time: Tiempo de alquiler
+      rent_button_text: Alquilar
+    success_booking:
+      main_title_text: Vehículo añadido
+      main_body_first_text: 'Tu alquiler comenzará pronto. Aumenta tus posibilidades de conseguir un auto, te recomendamos que '
+      main_body_second_text: selecciones al menos 3 vehículos.
+      why_text: ¿Por qué?
+      select_text: Seleccionar
+      search_more_vehicles: Buscar más vehículos
+    inactive_account:
+      verify_account: 'Verificar cuenta '
+      verify_account_suggestion_first_text: 'Revisa el estado de tu cuenta para poder alquilar un auto '
+      verify_account_suggestion_second_text: ir a estado de cuenta.
+      verify_account_button_text: Verificar mi cuenta
+    generic_profile:
+      user_registered_in: 'Se registró en '
+      works_in: 'Trabaja en:'
+      about_me: 'Acerca de mi:'
+      language: 'Idioma:'
+      account_verified: Cuenta verificada
+      see_more: Ver más
+      documents_provided_section_title: Documentos proporcionados
+      identity_document: Documento de identidad
+      email: Correo electrónico
+      licence_driver: Licencia de conducir
+      phone: Teléfono
+      reservation_payment_detail_section_title: Detalle del pago de la reserva
+      service_charge: 'Cobro del servicio:'
+      charge_use_platform: 'Cobro por uso de plataforma:'
+      warranty: 'Garantía (*):'
+      total: 'Total:'
+      warranty_notice_text: '* El monto de la garantía sera devuelto una vez finalizada la misma.'
+      address: 'Dirección:'
+      custom_address: 'Aclaración de la dirección:'
+      map: Mapa
+      evaluations_section_title: Evaluaciones
+    show_cards:
+      main_title: Detalle del Pago de la Reserva
+      detail_service_payment: 'Cobro del Servicio: '
+      detail_charge_use_platform: 'Cobro por Uso de plataforma: '
+      detail_warranty: 'Garantía (*): '
+      total: 'Total: '
+      notice_about_warranty: '* El monto de la garantía sera devuelto una vez finalizada la misma.'
+      select_payment_method: Seleccione metodo de pago
+      button_add_payment_method: Agregar Metodo de Pago
+      button_rent: Alquilar
+    booking_report_documents:
+      reservation_report: Reporte de la Reserva
+      track: Recorrido
+      distance_value: 'Valor: '
+      distance_measure_type: 'Tipo: '
+      kilometres: Kilometros
+      miles: Millas
+      add_photo: Añadir Foto
+      fuel: Combustible
+      fuel_full: 'Valor: 8/8'
+      upload_report_button: Subir Reporte
+    no_request:
+      no_req: No tienes ninguna solicitud
+      increase: ¡Aumenta tus probabilidades!
+      edit_ads: Edita tus anuncios con estos consejos y obtén mejor respuesta.
+      tips: Consejos
+    request:
+      my_request: Mis solicitudes
+      status: Estado
+      description: Descripción
+      day: días
+      lives_in: Vive en
+      about_me: Acerca de mí
+      request_vehicles: Solicitudes de mis vehículos
+      status_vehi: Estado
+      description_vehi: Descripción
+      day_vehi: días
+      lives_in_vehi: Vive en
+      about_me_vehi: Acerca de mí
+      increase: ¡Aumenta tus probabilidades!
+      edit_ads: Edita tus anuncios con estos consejos y obtén mejor respuesta.
+      tips: Consejos

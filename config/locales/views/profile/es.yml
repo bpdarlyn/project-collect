@@ -1,0 +1,139 @@
+es:
+  profile:
+    public_profile:
+      user_registered_in: Se registró en
+      edit_profile: Editar perfil
+      verified_account: Cuenta verificada
+      see_more: Ver más
+      identity_document: Documento de identidad
+      email: Email
+      driver_license: Licencia de conducir
+      phone: Teléfono
+      evaluations: Evaluaciones
+      evaluations_made_by_you: Evaluaciones hechas por tí
+    profile:
+      user_registered_in: Se registró en
+      personal_information_section_title: Información personal
+      picture_document: Fotografía del Documento
+      front_side_photo: Foto del Lado Anverso
+      reverse_side_photo: Foto del Lado Inverso
+      driver_licence_section_title: Licencia de conducir
+      expedition_date_limit_text: La fecha mínima puede hacer hace 5 años
+      expiration_date_limit_text: La fecha mínima debe ser hoy
+      contact_section_title: Contacto
+      email: Email
+      verified_email: Email verificado
+      verify_email: Verificar email
+      phone: Teléfono
+      verified_phone: Teléfono verificado!
+      verify_phone: Verificar Teléfono
+      button_verify_phone_text: Enviar Código
+      legend_about_verify_phone: Una vez ingresado el teléfono, podrá enviar el código de verificación
+      address_section_title: Dirección
+      send_expected_service_invoices: Enviar Previsto o Facturas de Servicios
+      emergency_contact: Contacto de Emergencia
+      emergency_number: Teléfono de Emergencia
+      account_connection: Conexión de Cuentas
+      add: Añadir
+      linked: Enlazado
+      button_discard_text: Descartar
+    profile_approval:
+      alert_message: El proceso de activación tardara aproximadamente 24hrs.
+      main_title: General
+      identity_document: 'Documento de identidad:'
+      driver_licence: 'Licencia de Conducir:'
+      phone: 'Teléfono:'
+      email: 'Email:'
+      verify: Verificar
+    profile_payment:
+      main_title: Métodos de Pago
+      card_number: Número de tarjeta
+      expiration_date: Fecha de Expiración
+      month: Mes
+      year: Año
+      add_credit_debit_card: Agregar tarjeta de crédito o débito
+      payment_history_section_title: Historial de Pagos
+      date: Fecha
+      name: Nombre
+      state: Estado
+      received: Recibido
+      paid: Pagado
+      without_paids: No tienes actividades relacionadas con pagos.
+    profile_notifications:
+      sms_notifications_text: Recibir operaciones por SMS.
+      receive_offers: Recibir ofertas.
+      receive_suggestions: Recibir sugerencias en tu ciudad.
+      recieve_news_about_politics: Recibir novedades las politicas de uso.
+    profile_security:
+      publications_section_title: Publicaciones
+      share_on_facebook_text: Compartir actividad en Facebook.
+      share_my_profile_text: Incluir mi perfil y anuncios en motores de búsqueda.
+      login_section_title: Inicio de Sesión
+      edit_button_text: Editar
+      change_password_text: Cambiar Contraseña
+      note_about_current_password: (necesitamos tu contraseña actual)
+      note_about_password_sent: Su contraseña ha sido enviada a su email, caso contrario verifique su email en la plataforma.
+      note_about_dont_change_password: (dejar en blanco si no desea cambiar)
+      delete_account_section_title: Eliminar mi cuenta
+      delete_account_text: La cuenta registrada en Dud será eliminada temporalmente por tres meses y posteriormente si no se registra actividad alguna la eliminación será definitiva.
+      button_delete_text: Si, estoy de acuerdo
+    my_dud:
+      profile_title: Mi Dud
+      register_date: Se registró
+      profile_label_dark: Vehículos
+      car_text_description: Descripción
+      car_text_place: Lugar de partida
+      car_text_brand: Marca
+      car_text_model: Modelo
+      bottom_right_container: Ver Más
+      button_center_container: Ver Más
+    my_dud_2:
+      profile_title: Mi Dud
+      my_cars: Mis Autos
+      car_text_description: Descripción
+      car_text_place: Lugar de partida
+      car_text_brand: Marca
+      car_text_model: Modelo
+      table_date: Fecha
+      table_description: Descripción
+      table_code: Código
+      table_amount: Monto
+      table_status: Estado
+      report_text1: Reporte
+      report_text2: Revisa el reporte realizado sobre el alquiler de tu vehículo.
+      report_button: Imprimir
+      label_Ad: Anuncio
+      more_info: Ver más
+      more_description: Descripción
+      description_date: Se registró en
+      edit_button: Editar
+      label_car: Movilidad
+      descrip_brand: Marca
+      descrip_model: Modelo
+      descrip_year: Año
+      daily_price: Precio Diario
+      recommended_price: Precio Recomendado
+      descrip_price: A este precio, es %{probability} que se alquile su %{car_full_name}
+      photos: Fotos
+      features: Características
+      seating_numbers: Números de asientos
+      door_numbers: Números de puertas
+      fuel_type: Tipo de combustible
+      mileage: Kilometraje
+      feature_brand: Marca
+      additional_features: Extras
+      host_rules: Normas de Anfitrion
+      parking_place: Lugar de Parqueo
+      address: Dirección
+      map: Mapa
+      discard: Descartar
+      save_changes: Guardar cambios
+      distance_measure: Recorrido
+      miles: Millas
+      kilometres: Kilómetros
+      schedules: Horarios
+      frontal_picture: Parte frontal
+      side_picture: Lado
+      inside_picture: Interior
+      rear_picture: Parte trasera
+      extra_picture: Extra

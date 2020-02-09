@@ -1,0 +1,11 @@
+en:
+  activerecord:
+    models:
+      person: Persona
+    attributes:
+      person:
+        name: Nombre
+        last_name: Apellido
+        phone: Teléfono
+        ci: Cédula de identidad
+        address: Dirección

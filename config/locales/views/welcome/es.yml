@@ -1,0 +1,33 @@
+es:
+  welcome:
+    index:
+      dud_main_message: Un Dud a tu alcance, sigue tu camino.
+      dud_search: Buscar
+      download_app: No pares, bájate la app.
+      dud_travel: Todos tus viajes estan asegurados
+      earn_money: Gana dinero compartiendo tu auto cuando no lo estes ocupando.
+      estimate_earn: Calcula tu ganancia estimada
+      vehicle_value: Valor actual de tu vehículo
+      notice_vehicle_value: Valor estimado de ganancia en base a 5 días alquilados por semana
+      notice_vehicle_value_title: Aviso
+      earn_by_week: Valor estimado de ganancia por semana
+      lets_to_rent: Empezar
+      near_cars_me: Autos Alquilados en Dud cerca de ti
+      dud_need_car: ¿Necesitas un auto?
+      dud_easy_access: Fácil Acceso
+      dud_ideal_car: Tu auto ideal 24/7
+      dud_assurement_include: Seguros Incluidos
+      dud_coverage: Todos los autos de Dud están cubiertos con seguro y asistencia 24/7.
+      dud_save_money: Ahorra
+      dud_save_money_rent: Hasta un 30% más economico que un Rent a Car tradicional.
+      dud_how_it_works: Ver como funciona
+      experiences: Experiencias Dud
+      first_experience_title: Ahora alquilo el mío
+      first_experience_body: Una amiga me contó de la aplicación y cuando ingresé me di cuenta que en el kínder de mis hijas había un auto disponible...
+      second_experience_title: ¡Gracias a Dios!
+      second_experience_body: Encontré un auto cerca del parque...
+      third_experience_title: Ahora estoy tranquilo
+      third_experience_body: Alquilo mi auto hace siete meses...
+      fourth_experience_title: El seguro nos dijo que no nos preocupemos ...
+      fifth_experience_title: Encontré el ideal
+      fifth_experience_body: Necesitaba ir urgente al campo para solucionar el problema ...

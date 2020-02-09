@@ -1,0 +1,12 @@
+<tr>
+  <td><%= project.name %></td>
+  <td><%= project.description %></td>
+  <td><%= number_to_currency(project.total_collect) %></td>
+  <td><%= number_to_currency(project.total_amount) %></td>
+  <td><%= i18n_model_values(:active, project) %></td>
+  <td class="text-center">
+    <a href="<%= options_project_path(project) %>" class="btn btn-primary btn-sm active" role="button" aria-pressed="true">
+      <i class="fas fa-info"></i>
+    </a>
+  </td>
+</tr>
