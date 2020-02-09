@@ -1,0 +1,17 @@
+<div class="row mt-4">
+  <div class="col">
+    <div class="row mt-4">
+      <div class="col">
+        <div class="card">
+          <div class="card-header bg-secondary text-white">
+            Items a recolectar para <%= @project.name %>
+          </div>
+          <div class="card-body">
+            <%= render partial: 'item_collects/table', locals: {item_collects: @item_collects} %>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>

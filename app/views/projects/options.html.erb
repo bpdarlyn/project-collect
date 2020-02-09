@@ -1,9 +1,10 @@
 <div class="row p-4">
-  <a href="#" class="shadow col col-4 offset-2 border border-primary mr-2 rounded text-center font-weight-bold">
+  <a href="<%= items_project_path(@project) %>" class="shadow col col-4 offset-2 border border-primary mr-2 rounded text-center font-weight-bold">
     <%= image_pack_tag 'cobranza.svg', class: 'img-fluid' %>
     Promesas Pendientes de Entregar
   </a>
-  <a href="#" class="shadow col col-4 border border-primary rounded text-center font-weight-bold">
+  <a href="<%= items_project_path(@project) %>" class="shadow col col-4 border border-primary rounded text-center font-weight-bold">
+    <%= image_pack_tag 'promesa.png', class: 'img-fluid' %>
     Registrar Promesas
   </a>
 </div>

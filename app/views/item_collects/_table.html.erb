@@ -1,0 +1,23 @@
+<table
+  class="table table-bordered table-hover"
+>
+  <thead class="thead-light">
+  <tr>
+    <th>#</th>
+    <th>Nombre</th>
+    <th>Descripción</th>
+    <th>Precio Unitario</th>
+    <th>Cantidad</th>
+    <th>Total requerido</th>
+    <th>Total recolectado</th>
+    <th>Estado</th>
+    <th>Acciones</th>
+  </tr>
+  </thead>
+  <tbody>
+  <% item_collects.each_with_index do |item_collect, i| %>
+    <%= render partial: 'item_collects/row', locals: {item_collect: item_collect, index: i} %>
+  <% end %>
+  </tbody>
+</table>
+

@@ -4,3 +4,5 @@ es:
     project:
       true: Habilitado
       false: Inhabilitado
+    item_collect:
+      pending: Pendiente
