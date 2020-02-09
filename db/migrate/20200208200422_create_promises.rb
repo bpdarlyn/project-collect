@@ -4,9 +4,8 @@ class CreatePromises < ActiveRecord::Migration[6.0]
       t.references :person, null: false, foreign_key: true
       t.references :item_collect, null: false, foreign_key: true
       t.string :current_state
-      t.string :amount
-      t.string :paid
-
+      t.float :amount, default: 0
+      t.float :paid, default: 0
       t.timestamps
     end
   end

@@ -16,7 +16,7 @@ full_path = Rails.root.join('db', 'data', file_items_name)
 
 excel_file = Creek::Book.new full_path
 sheet = excel_file.sheets[0]
-columns = { qty: 'A', description: 'B', name: 'C', unit_price: 'D', total_amount: 'E' }
+columns = {qty: 'A', description: 'B', name: 'C', unit_price: 'D', total_amount: 'E'}
 sheet.simple_rows.each do |row|
   next if row[columns[:qty]] == 'cant' # check if is the first row to skip the header
   next if !row.present?
@@ -31,5 +31,34 @@ sheet.simple_rows.each do |row|
   }
   ItemCollect.create(new_item)
 end
-project.total_amount = ItemCollect.sum(:total_amount)
-project.save
+
+# Create Promises
+sheet_promises = excel_file.sheets[1]
+column_promise = {person: 'B', phone: 'C', item: 'D', amount: 'E', paid: 'F'}
+sheet_promises.simple_rows.each do |row|
+  next if row[column_promise[:person]] == 'Ofrendador' # check if is the first row to skip the header
+  next if !row.present?
+  person = Person.custom_fields(row['person']).first
+  unless person.present?
+    person = Person.create(name: row[column_promise[:person]])
+  end
+  item = ItemCollect.find_by_name row[column_promise[:item]]
+  new_promise = {
+      id: person.id,
+      name: person.name,
+      last_name: person.last_name,
+      ci: person.ci,
+      phone: row[column_promise[:phone]],
+      amount: row[column_promise[:amount]].to_f,
+      item_collect_id: item.id
+  }
+  p new_promise
+  pf = Builder::PromiseForm.new(new_promise)
+  pf.save
+
+  promise = Promise.where(person: person, item_collect: item).first
+  promise.current_state = row[column_promise[:paid]] == 'SI' ? 'paid' : 'pending';
+  promise.paid = row[column_promise[:paid]] == 'SI' ? row[column_promise[:amount]].to_f : 0;
+  promise.save
+end
+

@@ -46,3 +46,5 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'dotenv-rails', '2.7.5'
 gem 'creek'
+gem 'pg_search'
+gem 'active_model_serializers', '0.10.10'

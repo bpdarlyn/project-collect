@@ -1,0 +1,13 @@
+es:
+  activemodel:
+    models:
+      builder/promise_form: Formulario de Promesas
+    attributes:
+      builder/promise_form:
+        name: Nombre
+        last_name: Apellido
+        phone: Teléfono
+        ci: Cédula de identidad
+        address: Dirección
+        amount: Monto
+        item_collect_id: Item

@@ -5,4 +5,14 @@ Rails.application.routes.draw do
     get 'options', on: :member
     get 'items', on: :member
   end
+  resources :item_collects, only: [:index] do
+    get 'add_promise', on: :member
+    post 'save_promise', on: :member
+  end
+
+  namespace :api do
+    namespace :v1 do
+      get 'search', controller: 'people'
+    end
+  end
 end

@@ -1,0 +1,17 @@
+.autocompleteList{
+  position: absolute;
+  background-color: #919191;
+  width: 98%;
+  border-radius: .3rem;
+  list-style-type: none;
+  .item-result{
+    margin-top: 3px;
+    margin-bottom: 3px;
+    color: white;
+    padding: 5px;
+  }
+  .item-result:hover{
+    opacity: 0.5;
+    cursor: pointer;
+  }
+}

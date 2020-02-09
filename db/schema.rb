@@ -18,10 +18,10 @@ ActiveRecord::Schema.define(version: 2020_02_09_030939) do
   create_table "item_collects", force: :cascade do |t|
     t.string "name"
     t.string "description"
-    t.float "unit_price"
-    t.integer "qty"
-    t.float "total_amount"
-    t.float "total_collect"
+    t.float "unit_price", default: 0.0
+    t.integer "qty", default: 0
+    t.float "total_amount", default: 0.0
+    t.float "total_collect", default: 0.0
     t.string "current_state"
     t.bigint "project_id", null: false
     t.datetime "created_at", precision: 6, null: false
@@ -42,8 +42,8 @@ ActiveRecord::Schema.define(version: 2020_02_09_030939) do
   create_table "projects", force: :cascade do |t|
     t.string "name"
     t.string "description"
-    t.string "total_amount"
-    t.float "total_collect"
+    t.float "total_amount", default: 0.0
+    t.float "total_collect", default: 0.0
     t.date "start_date"
     t.date "end_date"
     t.boolean "active"
@@ -55,8 +55,8 @@ ActiveRecord::Schema.define(version: 2020_02_09_030939) do
     t.bigint "person_id", null: false
     t.bigint "item_collect_id", null: false
     t.string "current_state"
-    t.string "amount"
-    t.string "paid"
+    t.float "amount", default: 0.0
+    t.float "paid", default: 0.0
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["item_collect_id"], name: "index_promises_on_item_collect_id"

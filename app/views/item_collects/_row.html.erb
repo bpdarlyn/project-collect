@@ -8,7 +8,7 @@
   <td><%= number_to_currency(item_collect.total_collect) %></td>
   <td><%= i18n_model_values(:current_state, item_collect) %></td>
   <td class="text-center">
-    <a href="#" class="btn btn-info btn-sm active" role="button" aria-pressed="true">
+    <a href="<%= add_promise_item_collect_path(item_collect) %>" class="btn btn-info btn-sm active" role="button" aria-pressed="true">
       <i class="fas fa-edit"></i>
     </a>
   </td>

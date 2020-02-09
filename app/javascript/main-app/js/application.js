@@ -4,3 +4,4 @@ require("@rails/activestorage").start();
 require("channels");
 require("jquery");
 require('bootstrap/dist/js/bootstrap.min');
+require('@tarekraafat/autocomplete.js');

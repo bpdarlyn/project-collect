@@ -1,0 +1,62 @@
+<div class="row mt-4">
+  <div class="col">
+    <%= form_for @promise_form, url: save_promise_item_collect_path(@item_collect) do |f| %>
+      <%= render partial: 'layouts/errors', locals: {resource: @promise_form} %>
+      <div class="shadow card">
+        <div class="card-body">
+          <h5 class="card-title">Datos Personales</h5>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <%= f.label :name %>
+              <%= f.text_field :name, class: 'form-control', autocomplete: 'off', required: true %>
+              <%= f.hidden_field :id, class: 'form-control'%>
+              <%= f.hidden_field :item_collect_id, class: 'form-control'%>
+
+              <small class="form-text text-muted">Buscar por nombre completo, ci o teléfono</small>
+            </div>
+            <div class="form-group col-md-6">
+              <%= f.label :last_name %>
+              <%= f.text_field :last_name, class: 'form-control' %>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <%= f.label :ci %>
+              <%= f.text_field :ci, class: 'form-control' %>
+            </div>
+            <div class="form-group col-md-6">
+              <%= f.label :phone %>
+              <%= f.phone_field :phone, class: 'form-control' %>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="shadow card mt-3">
+        <div class="card-body">
+          <h5 class="card-title">Promesa para <%= @item_collect.name %></h5>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <%= f.label :amount %>
+              <%= f.number_field :amount, required: true %>
+              <small class="form-text text-muted">
+                Se necesita <%= number_to_currency @item_collect.remaining_amount %>
+              </small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-2">
+        <a href="<%= items_project_path(@item_collect.project) %>" class="btn btn-warning  active" role="button" aria-pressed="true">
+          Volver
+        </a>
+        <button type="submit" class="btn btn-primary">Guardar</button>
+      </div>
+    <% end %>
+  </div>
+  </div>
+</div>
+
+<% content_for :scripts do %>
+  <%= javascript_pack_tag 'person/autocomplete' %>
+<% end %>
